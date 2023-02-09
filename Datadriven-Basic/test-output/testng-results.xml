@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Pass LOGINASBANKMANAGER]]>
+    </line>
+    <line>
+      <![CDATA[Test Pass ADDCUSTOMER]]>
+    </line>
+    <line>
+      <![CDATA[Test Pass ADDCUSTOMER]]>
+    </line>
+    <line>
+      <![CDATA[Test Pass ADDCUSTOMER]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-08T11:17:19 IST" name="Data driven Suite" finished-at="2023-02-08T11:17:31 IST" duration-ms="11657">
+    <groups>
+    </groups>
+    <test started-at="2023-02-08T11:17:19 IST" name="BML Test" finished-at="2023-02-08T11:17:23 IST" duration-ms="3900">
+      <class name="com.bank.testcases.LoginTest">
+        <test-method signature="loginasBankManager()[pri:0, instance:com.bank.testcases.LoginTest@2c88b9fc]" started-at="2023-02-08T11:17:20 IST" name="loginasBankManager" finished-at="2023-02-08T11:17:23 IST" duration-ms="3779" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test Pass LOGINASBANKMANAGER]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginasBankManager -->
+      </class> <!-- com.bank.testcases.LoginTest -->
+    </test> <!-- BML Test -->
+    <test started-at="2023-02-08T11:17:23 IST" name="AddCustomer Test" finished-at="2023-02-08T11:17:31 IST" duration-ms="7737">
+      <class name="com.bank.testcases.AddCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bank.testcases.AddCustomerTest@4de41af9]" started-at="2023-02-08T11:17:14 IST" name="setUp" finished-at="2023-02-08T11:17:19 IST" duration-ms="5262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bank.testcases.AddCustomerTest@4de41af9]" started-at="2023-02-08T11:17:23 IST" name="addCustomer" data-provider="getData" finished-at="2023-02-08T11:17:26 IST" duration-ms="2859" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sun]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1234.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Pass ADDCUSTOMER]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bank.testcases.AddCustomerTest@4de41af9]" started-at="2023-02-08T11:17:26 IST" name="addCustomer" data-provider="getData" finished-at="2023-02-08T11:17:29 IST" duration-ms="2341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2222.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Pass ADDCUSTOMER]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.bank.testcases.AddCustomerTest@4de41af9]" started-at="2023-02-08T11:17:29 IST" name="addCustomer" data-provider="getData" finished-at="2023-02-08T11:17:31 IST" duration-ms="2493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3333.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test Pass ADDCUSTOMER]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bank.testcases.AddCustomerTest@4de41af9]" started-at="2023-02-08T11:17:31 IST" name="tearDown" finished-at="2023-02-08T11:17:32 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.testcases.AddCustomerTest -->
+    </test> <!-- AddCustomer Test -->
+  </suite> <!-- Data driven Suite -->
+</testng-results>

@@ -1,0 +1,4 @@
+INFO    2023-02-08 11:10:57,925 [main] com.bank.base.TestBase  - Config File Loaded
+INFO    2023-02-08 11:10:57,930 [main] com.bank.base.TestBase  - OR File Loaded
+INFO    2023-02-08 11:11:01,196 [main] com.bank.base.TestBase  - Chrome Browser Launched
+INFO    2023-02-08 11:11:02,445 [main] com.bank.base.TestBase  - Navigate to URL https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
